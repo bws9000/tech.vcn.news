@@ -1,5 +1,5 @@
 ---
-title: Ventura Counties Crime Map
+title: Ventura Crime Map
 excerpt: Calls for Service Map|ventura-police-department.jpg|@kat-wilcox-329096
 date: 2020-09-25T15:25:06.082Z
 ---
