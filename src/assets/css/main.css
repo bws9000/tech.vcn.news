@@ -1,0 +1,339 @@
+/*
+theme name: vcn.news
+date: 7/23/2020
+description: basic HTML5/CSS3 responsive layout
+author:burt snyder
+*/
+
+body {
+    font-family: Arial, 'Lucida Sans Unicode', serif;
+    line-height: 1.5;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #000000;
+}
+
+a:hover, a:active {
+    color: #3d3d3d;
+}
+
+.mainbody {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #dbdbdb;
+}
+
+.navi {
+    width:100%;
+    text-align: center;
+}
+
+header {
+    display: block;
+}
+
+header img {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 30%;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header span {
+    display: table;
+    margin: 0 auto;
+}
+
+.mainheader nav {
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+}
+
+.mainheader nav ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+.mainheader nav ul li {
+    margin: 0 auto;
+    display: inline;
+}
+
+.mainheader nav ul > li:first-child {
+    display: none;
+}
+
+
+.mainheader nav a:link, .mainheader nav a:visited {
+    color: #000;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+}
+
+.mainheader nav a:hover, .mainheader nav a:active,
+.mainheader nav .active a:link, .mainheader nav a:visited {
+    text-decoration: underline;
+}
+
+.mainheader nav ul li a {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.article_content {
+    margin:0 auto;
+    width: 93%;
+    background-color: #A3A3A3;
+    border: solid 1px #FFFFFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.article_content a:link{
+    text-decoration: underline;
+}
+.articleheader p{
+    text-align:center;
+}
+
+.topcontent {
+    width: 100%;
+    background-color: #c7c7c7;
+    border: solid 1px #FFFFFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-bottom:1%;
+    height:100%;
+}
+.topcontent header{
+    margin-left:2%;
+}
+
+.postcontent {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 95%;
+    background-color:#fff;
+    overflow: auto;
+    display:block;
+    height:100%;
+    padding:0.5% 0.5% 0.5% 0.5%;
+    margin: 0 auto 2%;
+    position:relative;
+}
+
+.postcontent_col {
+    float: left;
+    width: 50%;
+    overflow:visible;
+    text-align: left;
+    position:relative;
+}
+.postcontent_col2 {
+    text-align: left;
+}
+.page_span1 {
+    width:80%;
+    padding-left:10px;
+    text-align:left;
+    position: absolute;
+    top:0;
+}
+.page_span{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.inner_copy{
+    text-align:justify;
+    text-justify: inter-word;
+}
+
+.readmore{
+    float:right;
+    font-weight: bold;
+    font-size: large;
+    display:block;
+}
+
+.article {
+    text-align: left;
+    display: block;
+    float: none;
+    width: 100%;
+}
+.article p {
+    /*margin-left: 45%;*/
+    /*padding-right: 5%;*/
+}
+/*.article h2 {*/
+/*    font-size: small;*/
+/*}*/
+
+
+.postcontent_image {
+    width: 95%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.postcontent_image_single {
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.post_img{
+    height:400px;
+}
+
+.postmeta {
+    margin-left:2%;
+    position:relative;
+    font-style: italic;
+    font-size: 90%;
+    color: #FFFFFF;
+}
+.imagecredit{
+    color:#999;
+}
+
+.mainfooter{
+    height:300px;
+    width: 100%;
+}
+
+.mainfooter p {
+    font-size:smaller;
+    margin:0 auto;
+}
+
+
+@media only screen and (min-width: 910px) {
+    /* reset the nav if resized in open state */
+    .mainheaderResponsiveMenu nav {
+        overflow: hidden;
+        display: inline-block;
+        text-align: center;
+        height: 40px;
+    }
+
+    .mainheaderResponsiveMenu nav ul {
+        list-style: none;
+        margin: 0 auto;
+    }
+
+    .mainheaderResponsiveMenu nav ul li {
+        margin: 0 auto;
+        display: inline;
+    }
+
+    .mainheaderResponsiveMenu nav ul > li:first-child {
+        display: none;
+    }
+
+    .mainheaderResponsiveMenu nav a:link, .mainheaderResponsiveMenu nav a:visited {
+        display: inline-block;
+        padding: 10px 25px;
+        height: 20px;
+    }
+
+    .mainheaderResponsiveMenu nav a:hover, .mainheaderResponsiveMenu nav a:active,
+    .mainheaderResponsiveMenu nav .active a:link, .mainheaderResponsiveMenu nav a:visited {
+        text-decoration: underline;
+    }
+
+    .mainheaderResponsiveMenu nav ul li a {
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+}
+
+
+@media only screen and (min-width: 150px) and (max-width: 910px) {
+
+    .postmeta {
+        margin-left:1%;
+    }
+    .article_content {
+        width:98%;
+        height:100%;
+    }
+    .postcontent {
+        width:98%;
+        margin: 0 auto 0.5%;
+    }
+
+    .mainheaderResponsiveMenu nav {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: #FFFFFF;
+        padding-left:43px;
+        width: 100%;
+    }
+
+    .mainheaderResponsiveMenu nav ul {
+        list-style: none;
+        text-align: left;
+    }
+
+    .postcontent_image_container {
+        width: 100%;
+        height: 400px;
+    }
+
+    .mainheader nav ul > li:first-child {
+        display: contents;
+    }
+
+    .mainbody {
+        width: 95%;
+    }
+
+    .mainheader img {
+        width: 100%;
+    }
+
+    .mainheader nav {
+        width: 100%;
+        text-align: left;
+        float: left;
+    }
+
+    .mainheader nav ul {
+        list-style: none;
+        margin: 0 auto;
+    }
+
+    .mainheader nav ul li {
+        width: 100%;
+    }
+
+    .mainheader nav a:link, .mainheader nav a:visited {
+        height: 20px;
+        display: block;
+    }
+
+    header span {
+        font-size: 80%;
+    }
+
+}
