@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: bws9000/world.vcn.news
+  repo: bws9000/tech.vcn.news
 
 media_folder: "static/images"
 public_folder: "static/images"
